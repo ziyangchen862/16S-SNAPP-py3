@@ -1,17 +1,17 @@
 #!/usr/sh
 
 ## tool paths
-CUTADAPT=path-to/cutadapt
-VSEARCH=path-to/vsearch
-export RDPHOME=path-to/RDPTools #the directory where classifier.jar lives
-export MAKEBLASTDB=path-to/makeblastdb
-export BLASTN=path-to/blastn
+CUTADAPT=/C:\Users\zc1625\Downloads
+VSEARCH=/C:\Users\zc1625\Downloads\vsearch-master
+export RDPHOME=/C:\Users\zc1625\Downloads\RDPTools-master
+export MAKEBLASTDB=/C:\Users\zc1625\Downloads\ncbi-blast-2.17.0+-src
+export BLASTN=/C:\Users\zc1625\Downloads\ncbi-blast-2.17.0+-src
 
 ## database paths
-export RDP_FULL_BLAST=/path-to/DB/rdp11_5
-export RDP_FULL_SEQ=/path-to/DB/rdp11_5.fasta
+export RDP_FULL_BLAST=/C:\Users\zc1625\Downloads\16S_DB
+export RDP_FULL_SEQ=/C:\Users\zc1625\Downloads\16S_DB
 #export RDP_CLASSIFIER=/path-to/rRNAClassifier.properties #path to custom trained RDP Classifier
 
 ## primers and other settings
-PRIMERS=path-to/Swift_16S_SNAP_primers.fasta #primer file formatted paired-end primer trimming
+PRIMERS=/C:\Users\zc1625\Downloads\16S_DB
 export READLEN=130 #expected single read length after primer is trimmed
